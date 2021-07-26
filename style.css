@@ -1,0 +1,107 @@
+body {
+	margin: 0pt;
+	padding: 0pt;
+	border: 0pt;
+	font-family: Avenir, sans-serif;
+	line-height: 1.5em;
+	background-color: white;
+}
+
+#wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#header {
+	padding: 0;
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#caption {
+	font-family: Rumi;
+	font-size: 40pt;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-150px);
+}
+
+#menu {
+	background: #787878;
+	color: white;
+	clear:both;
+}
+
+#menu a, #menu a:visited {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+}
+
+#menu a:hover {
+	padding: 10px;
+	background: white;
+	color: #787878;
+}
+
+#billiard-table {
+		display: block;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100;
+		height: 100;
+		background: white;
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p a, p a:link, p a:visited {
+	color: #0044d6;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: #396ddb;
+	text-decoration: underline;
+}
+
+
+h1 {
+	margin-bottom: 1em;
+}
+
+.box {
+	padding: 25px;
+	margin-top: 30px;
+	/*margin-bottom: 20px;*/
+	/*clear: left;*/
+	width: 70%;
+	padding-top:20px;
+	background: #dedede;
+}
+
+ul, ol{
+	margin-left: 20px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right
+}
